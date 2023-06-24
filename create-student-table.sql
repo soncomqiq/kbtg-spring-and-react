@@ -1,4 +1,4 @@
-CREATE DATABASE  IF NOT EXISTS `student_tracker`;
+CREATE SCHEMA IF NOT EXISTS `student_tracker`;
 USE `student_tracker`;
 
 --
@@ -13,5 +13,4 @@ CREATE TABLE `student` (
   `last_name` varchar(45) DEFAULT NULL,
   `email` varchar(45) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=latin1;
-
+)
